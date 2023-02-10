@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/png" href="https://nated.in/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nated UI</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            height: 100vh;
+            line-height: 3rem;
+        }
+
+        .hero {
+            padding: 60px 80px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .hero-img {
+            object-fit: contain;
+            /* height: 20px;
+            position: relative;
+            top:0; */
+        }
+
+        .container {
+            padding: 80px;
+        }
+
+        .link-box {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .copy-code {
+            padding: 4px 10px;
+            font-size: .3rem;
+            display: flex;
+        }
+
+        #copy-it {
+            padding: 0 7px;
+            font-size: 10px !important;
+            margin-top:-15px;
+        }
+
+
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            text-align: center;
+
+        }
+
+        .footer-bg {
+            background-color: var(--black-color);
+        }
+
+        .foot>img {
+            object-fit: contain;
+            height: 40px;
+        }
+    </style>
+    <link rel="stylesheet" href="./styles/min.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div class="main font-poppins">
+        <div class="hero grad-3">
+            <span>
+                <h1 class="font-mont">New Age Technology Enhanced Design | NATED</h1>
+                <h5 class="tagline font-ubuntu">Elevate your design with Nat UI</h5>
+                <p>No installation, just add the line to your html file.</p>
+                <p>Nat UI is Smaller, Faster, Easier to Use.</p>
+            </span>
+            <span class="hero-img">
+                <img class="lock" src="./assets/img/natedui.png" height="100px" alt="">
+            </span>
+        </div>
+        <div class="container">
+            <h2>v0.1.0</h2>
+            <hr>
+            <h5>CSS</h5>
+            <div class="link-box" onclick="copyToClipboard()">
+                <p id="link-1" class="font-mono"></p>
+
+            </div>
+            <span class="copy-code" onclick="copyToClipboard()"><svg width="14" height="14" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path data-name="copy-Filled"
+                        d="M11 19.5h5.7A3.978 3.978 0 0 1 13 22H6a4 4 0 0 1-4-4v-8a4.007 4.007 0 0 1 3.5-3.97V14a5.51 5.51 0 0 0 5.5 5.5Zm8.5-13.25h2.12a1.638 1.638 0 0 0-.21-.25L18 2.59a1.156 1.156 0 0 0-.25-.2V4.5a1.758 1.758 0 0 0 1.75 1.75Zm0 1.5a3.256 3.256 0 0 1-3.25-3.25V2H11a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h7a4 4 0 0 0 4-4V7.75Z"
+                        style="fill:rgb(39, 39, 39)" />
+                </svg>
+                <p id="copy-it">Click to Copy</p>
+            </span>
+
+            <div class="info-box font-poppins">
+                <p>We are working on the dynamic CSS</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-bg">
+            <span class="foot">
+                <img class="lock" src="./assets/img/natedui.png" alt="">
+                <!-- <p>Ok Test</p> -->
+            </span>
+        </div>
+    </footer>
+</body>
+<script>
+    var link1 = `<link rel="stylesheet" href="https://ui.nated.in/styles/min.css" crossorigin="anonymous">`;
+    document.querySelector('#link-1').textContent = link1;
+
+    const copyToClipboard = () => {
+        const el = document.createElement('textarea');
+        el.value = link1;
+        el.setAttribute('readonly', '');
+        el.style.position = 'absolute';
+        el.style.left = '-9999px';
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+        document.querySelector('#copy-it').textContent = 'Copied to Clipboard';
+    };
+</script>
+
+</html>

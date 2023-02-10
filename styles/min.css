@@ -1,0 +1,35 @@
+@charset "UTF-8";/*
+ * Nat UI  v0.1.0 (https://ui.nated.in/)
+ * Copyright 2022-2023 Nated.in
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE) */
+
+@import url("../components/crucial/crucial.css");
+@import url("../components/box/box.css");
+@import url("../components/texts/texts.css");
+@import url("../components/image/image.css");
+
+
+
+
+
+
+
+
+:root {
+    --primary-color: #ff3b30;
+    --secondary-color: #fff6ea;
+    --sky-color: #5585d4;
+    --grey-color: #9a9a9a;
+    --black-color: #282828;
+    --white-color: #ffffff;
+    --lynx-white-color: #f7f7f7;
+    --violet-color: #544ac8;
+    --lynx-gray-color: #c5c5c5;
+    --success-color: rgb(10, 209, 10);
+    --failed-color: rgb(231, 52, 52);
+    --warning-color: #ffeb3b;
+    --text-red: red;
+    --text-green: green;
+    --text-blue: blue;
+    --text-cyan: cyan;
+}

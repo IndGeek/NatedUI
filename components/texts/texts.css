@@ -1,0 +1,95 @@
+h1.heading {
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--black-color);
+}
+h2.subheading {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--black-color);
+}
+
+h3.miniheading {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: var(--black-color);
+}
+
+h4.subminiheading {
+  font-size: 1em;
+  font-weight: bold;
+  color: var(--black-color);
+}
+
+h5.tinyheading {
+  font-size: 0.83em;
+  font-weight: bold;
+  color: var(--black-color);
+}
+
+h6.subtinyheading {
+  font-size: 0.75em;
+  font-weight: bold;
+  color: var(--black-color);
+}
+
+.text-red {
+  color: var(--text-red);
+}
+.text-blue {
+  color: var(--text-blue);
+}
+.text-yellow {
+  color: var(--warning-color);
+}
+.text-green {
+  color: var(--text-green);
+}
+.text-gray {
+  color: var(--grey-color);
+}
+.text-cyan {
+  color: var(--text-cyan);
+}
+
+.text-white {
+  color: var(--white-color);
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-cross {
+  text-decoration: line-through;
+}
+
+.text-highlight {
+  background: var(--warning-color);
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+
+
+/* ---- g fonts ----- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Poppins:wght@400;500&family=Space+Mono&family=Ubuntu:wght@400;500&display=swap');
+
+.font-poppins{
+  font-family: 'Poppins', sans-serif !important;
+}
+.font-mont{
+  font-family: 'Montserrat', sans-serif !important;
+}
+.font-ubuntu{
+  font-family: 'Ubuntu', sans-serif !important;
+}
+.font-mono{
+  font-family: 'Space Mono', monospace !important;
+}

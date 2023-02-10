@@ -1,0 +1,42 @@
+.lock{
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.grad-1{
+    background: rgb(32,42,74);
+    background: radial-gradient(circle, rgba(32,42,74,1) 0%, rgba(9,14,24,1) 100%) !important;
+    color:white;
+}
+
+.grad-2{
+    background: rgb(43,32,74);
+    background: radial-gradient(circle, rgba(43,32,74,1) 0%, rgba(9,14,24,1) 100%);
+    color: white;
+
+}
+
+.grad-3{
+    background: rgb(32,62,74);
+    background: linear-gradient(266deg, rgba(32,62,74,1) 0%, rgba(9,14,24,1) 100%);
+    color: white;
+}
+
+.grad-4{
+    background: rgb(193,21,21);
+    background: linear-gradient(225deg, rgba(193,21,21,1) 0%, rgba(60,0,171,1) 100%);
+    color:white;
+}
+
+.grad-5{
+    background: rgb(255,226,0);
+    background: linear-gradient(225deg, rgba(255,226,0,1) 0%, rgba(171,71,0,1) 100%);
+    color:white;
+}
+
+.grad-6{
+    background: rgb(0,181,255);
+    background: linear-gradient(225deg, rgba(0,181,255,1) 0%, rgba(2,0,171,1) 100%);
+    color:white;
+}

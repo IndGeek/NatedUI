@@ -1,0 +1,74 @@
+.debug{
+    border:2px solid red !important;
+}
+
+.debug2{
+    border:2px solid blue !important;
+}
+
+.flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.absolute{
+    position: absolute;
+}
+
+/* .v-center{
+    align-items: center !important;
+    align-content: center !important;
+    align-self: center !important;
+}
+.h-center{
+    justify-content: center !important;
+    justify-self: center !important;
+    justify-items: center !important;
+} */
+.center {
+    align-items: center !important;
+    align-content: center !important;
+    align-self: center !important;
+    justify-content: center !important;
+    justify-self: center !important;
+    justify-items: center !important;
+}
+
+.mid{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.lb{
+    position: fixed;
+    bottom:10px;
+    left: 10px;
+    z-index: 999;
+}
+
+.rb{
+    position: fixed;
+    bottom:10px;
+    right: 10px;
+    z-index: 999;
+}
+
+.lt{
+    position: fixed;
+    top:10px;
+    left: 10px;
+    z-index: 999;
+}
+
+.rt{
+    position: fixed;
+    top:10px;
+    right: 10px;
+    z-index: 999;
+}
+
