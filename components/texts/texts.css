@@ -1,3 +1,22 @@
+/* ---- g fonts ----- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Poppins:wght@400;500&family=Space+Mono&family=Ubuntu:wght@400;500&display=swap');
+
+.font-poppins{
+  font-family: 'Poppins', sans-serif !important;
+}
+.font-mont{
+  font-family: 'Montserrat', sans-serif !important;
+}
+.font-ubuntu{
+  font-family: 'Ubuntu', sans-serif !important;
+}
+.font-mono{
+  font-family: 'Space Mono', monospace !important;
+}
+
+/* ---- custom text ----- */
+
+
 h1.heading {
   font-size: 2em;
   font-weight: bold;
@@ -78,18 +97,3 @@ h6.subtinyheading {
 
 
 
-/* ---- g fonts ----- */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Poppins:wght@400;500&family=Space+Mono&family=Ubuntu:wght@400;500&display=swap');
-
-.font-poppins{
-  font-family: 'Poppins', sans-serif !important;
-}
-.font-mont{
-  font-family: 'Montserrat', sans-serif !important;
-}
-.font-ubuntu{
-  font-family: 'Ubuntu', sans-serif !important;
-}
-.font-mono{
-  font-family: 'Space Mono', monospace !important;
-}
