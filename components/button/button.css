@@ -1,0 +1,15 @@
+div.blog > .btn{
+    display: inline-block;
+    padding: 4px 16px;
+    border-radius: 4px;
+    border: 2px solid  var(--sky-color);
+    background-color:rgb(247, 247, 247);
+    color:var(--sky-color);
+    font-weight: 500;
+    margin: 10px;
+}
+div.blog > .btn:hover{
+    border:2px solid transparent;
+    background-color:var(--sky-color);
+    color:white;
+}

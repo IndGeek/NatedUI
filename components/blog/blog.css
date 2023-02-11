@@ -1,3 +1,53 @@
+div.blog{
+    width: 50%;
+    margin:auto;
+    padding: 30px;
+}
+
+div.blog > .safe-btn{
+    border: 2px solid #98c633 !important;
+    background-color:rgb(247, 247, 247) !important;
+    color:#98c633 !important;
+}
+div.blog > .safe-btn:hover{
+    border:2px solid transparent !important;
+    background-color:#98c633 !important;
+    color:black !important;
+}
+
+div.blog > .danger-btn{
+    border: 2px solid var(--text-red) !important;
+    background-color:rgb(247, 247, 247) !important;
+    color:var(--text-red) !important;
+}
+div.blog > .danger-btn:hover{
+    border:2px solid transparent !important;
+    background-color:var(--text-red) !important;
+    color:white !important;
+}
+
+div.blog > .warning-btn{
+    border: 2px solid var(--warning-color) !important;
+    background-color:rgb(247, 247, 247) !important;
+    color:var(--black-color) !important;
+}
+div.blog > .warning-btn:hover{
+    border:2px solid transparent !important;
+    background-color:var(--warning-color) !important;
+    color:black !important;
+}
+
+div.blog > .dark-btn{
+    border: 2px solid var(--black-color) !important;
+    background-color:rgb(247, 247, 247) !important;
+    color:var(--black-color) !important;
+}
+div.blog > .dark-btn:hover{
+    border:2px solid transparent !important;
+    background-color:var(--black-color) !important;
+    color:var(--lynx-white-color) !important;
+}
+
 h2.blog-h2-1{
     border-left: 7px solid orangered;
     margin-left: 10px;
@@ -98,16 +148,48 @@ ul.blog {
     padding-right:10px;
 }
 
-
 img.thumbnail{
-    border-radius:6px;
-    box-shadow: 5px 0px 5px 10px rgb(42, 42, 42, 0.5);
+    border-radius:4px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    display: block;
+    margin: 10px auto;
+    /* transition-property: transform; */
+    transition: transform .2s linear;
+}
+img.thumbnail:hover{
+    cursor: pointer;
+    transform: translate(-6px, -3px);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
-hr{
+div.blog hr{
     text-align:center;
-    width:120px;
+    width:33%;
     border:none;
-    height:3px;
-    background-color: #fc8700;
+    height:0.4px;
+    background-color: #d4d4d4;
+}
+
+.also-read{
+    background-color: #fff6f0;
+    border-radius: 8px;
+    padding: 5px 10px;
+    transition: background-color .3s linear;
+    width: fit-content;
+}
+.also-read:hover {
+    background-color: #F6FFE2;
+}
+.also-read a{
+    color:#de6c21;
+    transition: color .4s linear;
+}
+.also-read:hover a{
+    color:#98c633;
+}
+
+.text-center{
+    text-align: center;
+    margin:auto;
+    /* justify-content: center; */
 }
