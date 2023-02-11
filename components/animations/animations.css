@@ -1,0 +1,35 @@
+.slide-left{
+    transition: transform .2s linear;
+    cursor: pointer;
+}
+
+.slide-left:hover{
+    transform: translateX(-6px);
+}
+
+.slide-right{
+    transition: transform .2s linear;
+    cursor: pointer;
+}
+
+.slide-right:hover{
+    transform: translateX(6px);
+}
+
+.slide-down{
+    transition: transform .2s linear;
+    cursor: pointer;
+}
+
+.slide-down:hover{
+    transform: translateY(6px);
+}
+
+.slide-up{
+    transition: transform .2s linear;
+    cursor: pointer;
+}
+
+.slide-up:hover{
+    transform: translateY(-6px);
+}

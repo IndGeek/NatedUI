@@ -13,3 +13,48 @@ div.blog > .btn:hover{
     background-color:var(--sky-color);
     color:white;
 }
+
+div.blog > .safe-btn{
+    border: 2px solid #98c633 !important;
+    background-color:rgb(247, 247, 247) !important;
+    color:#98c633 !important;
+}
+div.blog > .safe-btn:hover{
+    border:2px solid transparent !important;
+    background-color:#98c633 !important;
+    color:black !important;
+}
+
+div.blog > .danger-btn{
+    border: 2px solid var(--text-red) !important;
+    background-color:rgb(247, 247, 247) !important;
+    color:var(--text-red) !important;
+}
+div.blog > .danger-btn:hover{
+    border:2px solid transparent !important;
+    background-color:var(--text-red) !important;
+    color:white !important;
+}
+
+div.blog > .warning-btn{
+    border: 2px solid rgb(218, 211, 0) !important;
+    background-color:white !important;
+    color:var(--black-color) !important;
+}
+div.blog > .warning-btn:hover{
+    border:2px solid transparent !important;
+    background-color:var(--warning-color) !important;
+    color:black !important;
+}
+
+div.blog > .dark-btn{
+    border: 2px solid var(--black-color) !important;
+    background-color:rgb(247, 247, 247) !important;
+    color:var(--black-color) !important;
+}
+div.blog > .dark-btn:hover{
+    border:2px solid transparent !important;
+    background-color:var(--black-color) !important;
+    color:var(--lynx-white-color) !important;
+}
+
