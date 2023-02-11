@@ -7,16 +7,20 @@
     <link rel="shortcut icon" type="image/png" href="https://nated.in/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Styling Nat UI</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
+        integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
+        crossorigin="anonymous" />
     <style>
         body {
             padding: 0;
             margin: 0;
             box-sizing: border-box;
         }
+
         .container {
             padding: 10px 30px;
         }
-        
     </style>
     <link rel="stylesheet" href="/styles/min.css" crossorigin="anonymous">
 </head>
@@ -41,8 +45,39 @@
         <img class="thumbnail" src="https://picsum.photos/seed/picsum/536/354" alt="">
         <hr>
         <h4 class="star-icon">Also Read Block </h4>
-        <p class="font-mono text-center also-read"><strong>Also Read: <a href="https://ui.nated.in">How to use the Nat UI & what are the features?</a></strong></p>
+        <p class="font-mono text-center also-read"><strong>Also Read: <a href="https://ui.nated.in">How to use the Nat
+                    UI & what are the features?</a></strong></p>
+        <div class="share_code">
+            <pre>
+                <code class="language_html">
+                    < -- For Online Badge -->
+                        
+                        &lt;div class="badge" &gt;
+                        &lt;img class="avatar" src="url"&lt/img &gt;
+                        &lt;div class="online"&gt&lt/div&gt;  
+                        &lt/div&gt;
+
+                        < -- For Offline Badge -->
+                        &lt;div class="badge"&gt  
+                            &lt;img class="avatar" src="url"&lt/img&gt;
+                        &lt;div class="offline"&gt&lt/div&gt;  
+                        &lt/div&gt;
+
+                        < -- For DND Badge -->
+                        
+                        &lt;div class="badge"&gt  
+                        &lt;img class="avatar" src="url"&lt/img&gt;
+                            
+                        &lt;div class="dnd"&gt&lt/div&gt;  
+                        &lt/div&gt;
+                    </code>
+            </pre>
+        </div>
     </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
 </body>
 
 </html>

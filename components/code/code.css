@@ -1,0 +1,12 @@
+.share_code {
+    text-align: center;
+    overflow: hidden;
+    /* white-space: pre; */
+    /* max-width: fit-content; */
+    width: 100%;
+}
+
+.share_code code {
+    border-radius: 5px !important;
+    display: block;
+}
