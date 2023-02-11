@@ -157,3 +157,16 @@ div.blog hr{
     margin:auto;
     /* justify-content: center; */
 }
+
+
+
+
+
+
+@media screen and (max-width: 380px){
+    div.blog{
+        width: 90%;
+        margin:auto;
+        padding: 30px;
+    }
+}

@@ -71,6 +71,39 @@
             object-fit: contain;
             height: 40px;
         }
+        @media screen and (max-width: 380px) {
+            .hero{
+                padding: 20px;
+                width: 100%;
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            .hero-img {
+                width: 50px !important;
+            }
+            .main{
+                font-size: .8rem;
+                max-width: 380px;
+                overflow-x: hidden;
+            }
+            .container{
+                padding:13px;
+            }
+            .flex{
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 50px;
+            }
+            .copy-code{
+                font-size: .45rem;
+            }
+            div.flex > a{
+                margin-left: 0 !important;
+            }
+            footer{
+                margin-top:60px;
+            }
+        }
     </style>
     <link rel="stylesheet" href="./styles/min.css">
 </head>
@@ -81,7 +114,7 @@
     </header>
     <div class="main font-poppins">
         <div class="hero grad-3">
-            <span>
+            <span class="hero-info">
                 <h1 class="font-mont">New Age Technology Enhanced Design | NATED</h1>
                 <h5 class="tagline font-ubuntu">Elevate your design with Nat UI</h5>
                 <p>No installation, just add the line to your html file.</p>
