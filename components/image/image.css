@@ -40,3 +40,9 @@
     background: linear-gradient(225deg, rgba(0,181,255,1) 0%, rgba(2,0,171,1) 100%);
     color:white;
 }
+
+.grad-7{    
+    background: rgb(253,254,255);
+    background: linear-gradient(180deg, rgba(253,254,255,1) 0%, rgba(231,238,255,1) 100%);
+    color:black;
+}

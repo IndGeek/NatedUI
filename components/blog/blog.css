@@ -1,0 +1,113 @@
+h2.blog-h2-1{
+    border-left: 7px solid orangered;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin: 5px 0 5px 10px;
+    background-color: rgb(249, 252, 255);
+    border-radius: 2px;
+}
+h2.blog-h2-2{
+    border-left: 7px solid olivedrab;
+    margin-left: 10px;
+    padding: 2px 0 2px 12px;
+    margin: 5px 0 5px 10px;
+    background-color: rgb(249, 252, 255);
+    border-radius: 2px;
+}
+
+ul.blog {
+    list-style: none;
+}
+
+.rocket-icon::before {
+    content: "\1F680";
+    display: inline-block;
+    margin-left:5px;
+    width: 1em;
+    padding-right:10px;    
+}
+
+.right-icon::before {
+    content: "\2705";
+    display: inline-block;
+    margin-left:5px;
+    width: 1em;
+    padding-right:10px;    
+}
+
+.wrong-icon::before {
+    content: "\274C";
+    display: inline-block;
+    margin-left:5px;
+    width: 1em;
+    padding-right:10px;    
+}
+
+.info-icon::before {
+    content: "\24D8";
+    font-weight: bold;
+    margin-left:5px;
+    color:black;
+    display: inline-block;
+    width: 1em;
+    padding-right:10px;        
+}
+
+.like-icon::before {
+    content: "\1F44D";
+    display: inline-block;
+    margin-left:5px;
+    width: 1em;
+    padding-right:10px;
+}
+
+.point-icon::before {
+    content: "\1F449";
+    display: inline-block;
+    margin-left:5px;
+    width: 1em;
+    padding-right:10px;
+}
+
+
+.burger-icon::before {
+    content: "\1F354";
+    display: inline-block;
+    margin-left:5px;
+    width: 1em;
+    padding-right:10px;
+}
+
+.red-icon::before {
+    content: "\1F534";
+    color: red;
+    margin-left:5px;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    padding-right:10px;
+}
+
+.star-icon::before {
+    content: "\2B50";
+    color: red;
+    margin-left:5px;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    padding-right:10px;
+}
+
+
+img.thumbnail{
+    border-radius:6px;
+    box-shadow: 5px 0px 5px 10px rgb(42, 42, 42, 0.5);
+}
+
+hr{
+    text-align:center;
+    width:120px;
+    border:none;
+    height:3px;
+    background-color: #fc8700;
+}
