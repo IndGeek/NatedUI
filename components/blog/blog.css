@@ -29,6 +29,9 @@ h2.blog-h2-2{
 ul.blog {
     list-style: none;
 }
+div.blog li{
+    margin-bottom:10px;
+}
 
 .rocket-icon::before {
     content: "\1F680";
@@ -58,7 +61,7 @@ ul.blog {
     content: "\24D8";
     font-weight: bold;
     margin-left:5px;
-    color:black;
+    color:var(--sky-color);
     display: inline-block;
     width: 1em;
     padding-right:10px;        
