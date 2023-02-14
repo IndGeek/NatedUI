@@ -1,50 +1,55 @@
-.debug{
-    border:2px solid red !important;
+.debug {
+  border: 2px solid red !important;
 }
-.debug2{
-    border:2px solid blue !important;
+.debug2 {
+  border: 2px solid blue !important;
 }
-.flex{
-    display: flex !important;
+.flex {
+  display: flex !important;
 }
-.grid{
-    display: grid !important;
+.grid {
+  display: grid !important;
 }
-.block{
-    display: block !important;
+.block {
+  display: block !important;
 }
-.inline-block{
-    display: inline-block !important;
-}
-
-.absolute{
-    position: absolute !important;
+.inline-block {
+  display: inline-block !important;
 }
 
-.wrap{
-    flex-wrap: wrap;
+.absolute {
+  position: absolute !important;
 }
-.flex-row{
-    flex-direction: row !important;
+
+.static {
+  position: static;
 }
-.flex-row-reverse{
-    flex-direction: row-reverse !important;
+.fixed {
+  position: fixed;
 }
-.flex-col{
-    flex-direction: column!important;
+.relative {
+  position: relative;
 }
-.flex-row-reverse{
-    flex-direction: column-reverse !important;
+.sticky {
+  position: sticky;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+.flex-row {
+  flex-direction: row !important;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse !important;
+}
+.flex-col {
+  flex-direction: column !important;
+}
+.flex-row-reverse {
+  flex-direction: column-reverse !important;
 }
 /* order done by js */
-
-
-
-
-
-
-
-
 
 /* .v-center{
     align-items: center !important;
@@ -57,50 +62,54 @@
     justify-items: center !important;
 } */
 .center {
-    align-items: center !important;
-    align-content: center !important;
-    align-self: center !important;
-    justify-content: center !important;
-    justify-self: center !important;
-    justify-items: center !important;
+  align-items: center !important;
+  align-content: center !important;
+  align-self: center !important;
+  justify-content: center !important;
+  justify-self: center !important;
+  justify-items: center !important;
 }
 
-.mid{
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+.mid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.lb{
-    position: fixed;
-    bottom:10px;
-    left: 10px;
-    z-index: 999;
+.lb {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 999;
 }
 
-.rb{
-    position: fixed;
-    bottom:10px;
-    right: 10px;
-    z-index: 999;
+.rb {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 999;
 }
 
-.lt{
-    position: fixed;
-    top:10px;
-    left: 10px;
-    z-index: 999;
+.lt {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 999;
 }
 
-.rt{
-    position: fixed;
-    top:10px;
-    right: 10px;
-    z-index: 999;
+.rt {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
 }
 
 /* normalizations */
-.box-border{
-    box-sizing: border-box;
+.box-border {
+  box-sizing: border-box;
+}
+
+.w-auto {
+  width: auto;
 }
