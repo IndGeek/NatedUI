@@ -1,22 +1,50 @@
 .debug{
     border:2px solid red !important;
 }
-
 .debug2{
     border:2px solid blue !important;
 }
-
 .flex{
-    display: flex;
+    display: flex !important;
+}
+.grid{
+    display: grid !important;
+}
+.block{
+    display: block !important;
+}
+.inline-block{
+    display: inline-block !important;
+}
+
+.absolute{
+    position: absolute !important;
 }
 
 .wrap{
     flex-wrap: wrap;
 }
-
-.absolute{
-    position: absolute;
+.flex-row{
+    flex-direction: row !important;
 }
+.flex-row-reverse{
+    flex-direction: row-reverse !important;
+}
+.flex-col{
+    flex-direction: column!important;
+}
+.flex-row-reverse{
+    flex-direction: column-reverse !important;
+}
+/* order done by js */
+
+
+
+
+
+
+
+
 
 /* .v-center{
     align-items: center !important;
@@ -72,3 +100,7 @@
     z-index: 999;
 }
 
+/* normalizations */
+.box-border{
+    box-sizing: border-box;
+}
