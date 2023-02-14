@@ -15,10 +15,10 @@ const handleClass = (element, cls) => {
       case 'text':
         element.style.color = value;
         break;
-      case 'max':
+      case 'maxw':
         element.style.maxWidth = `${value}px`;
         break;
-      case 'min':
+      case 'minw':
         element.style.minWidth = `${value}px`;
         break;
       case 'border':
@@ -82,10 +82,10 @@ const handleClass = (element, cls) => {
         case cls.startsWith('text-'):
           handleClass(element, cls);
           break;
-        case cls.startsWith('max-'):
+        case cls.startsWith('maxw-'):
           handleClass(element, cls);
           break;
-        case cls.startsWith('min-'):
+        case cls.startsWith('minw-'):
           handleClass(element, cls);
           break;
         case cls.startsWith('border-'):
