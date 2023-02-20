@@ -33,3 +33,22 @@
 .slide-up:hover{
     transform: translateY(-6px);
 }
+
+/* special ones */
+
+
+img.hover-invert:hover{
+    transform: scaleX(-1);
+}
+.hover-blur{
+    transition: all 0.1s ease-in-out;
+}
+.hover-blur:hover{
+    filter: blur(6px);
+}
+.color-invert{
+    transition: all 0.3s ease-in-out;
+}
+.color-invert:hover{
+    filter: invert(1);
+}

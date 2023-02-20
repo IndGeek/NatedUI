@@ -16,7 +16,15 @@
         .container {
             padding: 10px 30px;
         }
-        
+        .compare-img{
+            justify-content: center;
+            justify-content: space-around;
+        }
+        .bg-invert{
+            background-color: white;
+            padding: 10px;
+            border-radius: 50%;
+        }
     </style>
     <link rel="stylesheet" href="/styles/min.css" crossorigin="anonymous">
 </head>
@@ -34,6 +42,27 @@
         <hr>
         <h4 class="star-icon">Image </h4>
         <img class="thumbnail" src="https://picsum.photos/seed/picsum/536/354" alt="">
+        <hr>
+        <h4 class="star-icon">Image Invert </h4>
+        <span class="flex flex-row compare-img">
+            <img class="" src="../../assets/img/shopping-cart.png" alt="">
+            <img class="hover-invert" src="../../assets/img/shopping-cart.png" alt="">
+        </span>
+        <br>
+        <hr>
+        <h4 class="star-icon">Image Blur </h4>
+        <span class="flex flex-row compare-img">
+            <img class="" src="https://cdn-icons-png.flaticon.com/128/3171/3171727.png" alt="">
+            <img class="hover-blur" src="https://cdn-icons-png.flaticon.com/128/3171/3171727.png" alt="">
+        </span>
+        <br>
+        <hr>
+        <h4 class="star-icon">Color Invert </h4>
+        <span class="flex flex-row compare-img">
+            <img class="" src="../../assets/img/tick.png" alt="">
+            <img class="color-invert bg-invert" src="../../assets/img/tick.png" alt="">
+        </span>
+        <br>
         <hr>
         <h4 class="star-icon">Also Read Block </h4>
         <p class="font-mono text-center also-read"><strong>Also Read: <a href="https://ui.nated.in">How to use the Nat UI & what are the features?</a></strong></p>
